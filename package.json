@@ -1,0 +1,19 @@
+{
+  "name": "fdecycle",
+  "version": "0.0.1",
+  "description": "Fetch-Decode-Execute Cycle teaching aid",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.0.2",
+    "vite": "^8.0.13"
+  },
+  "dependencies": {
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6"
+  }
+}
