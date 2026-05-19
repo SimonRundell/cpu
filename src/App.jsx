@@ -9,6 +9,7 @@
 import { useState, useEffect } from 'react';
 import DemoMode from './components/DemoMode.jsx';
 import QuizMode from './components/QuizMode.jsx';
+import CMFloatAdd from './cmFloatAd.jsx';
 
 /** Read stored theme or default to system preference */
 function getInitialTheme() {
@@ -76,6 +77,7 @@ export default function App() {
           ? <DemoMode  onSwitchToQuiz={() => setMode('quiz')} />
           : <QuizMode  onSwitchToDemo={() => setMode('demo')} />
         }
+        <CMFloatAdd color='#41403f' />
       </main>
     </div>
   );
